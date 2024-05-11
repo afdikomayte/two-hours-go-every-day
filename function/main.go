@@ -29,8 +29,8 @@ var randomizer = rand.New(rand.NewSource(time.Now().Unix()))
 func randomWithRange(min,max int) int{
   
   var value = randomizer.Int()%(max-min+1)+min
-  
-  return value 
+
+  return value  
 
 }
 
