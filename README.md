@@ -17,5 +17,10 @@ May 10, 2024 -> Day 6.
 May 11, 2024 -> Day 7.
 
   add go mod init
+
+May 12, 2024 -> Day 8.
+
   add testify 
+
+
 
