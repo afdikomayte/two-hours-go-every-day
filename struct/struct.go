@@ -22,6 +22,15 @@ type Person struct{
   absent int
 }
 
+//constan
+var Role = []string{"Manager","Employe"}
+
+//struct embedded
+type Manager struct{
+  role string
+  Person
+}
+
 func GetLencana(employe *Person) *Person{
 
   if employe.absent >= 20 {
