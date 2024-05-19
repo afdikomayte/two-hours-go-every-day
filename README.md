@@ -15,4 +15,5 @@ let's see what I get in 3 month from now.
 - May 13, 2024 -> Day 9.
 - May 17, 2024 -> Day 10.
 - May 18, 2024 -> Day 11.
+- May 19, 2024 -> Day 12.
 
