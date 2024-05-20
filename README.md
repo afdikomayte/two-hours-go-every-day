@@ -9,11 +9,12 @@ let's see what I get in 3 month from now.
 - May 9, 2024 -> Day 5.
 - May 10, 2024 -> Day 6.
 - May 11, 2024 -> Day 7.
-  1. add go mod init
-- May 12, 2024 -> Day 8.
-  2. add testify
+    1. add go mod init
+- May 12, 2024 -> Day 8.  
+    2. add testify
 - May 13, 2024 -> Day 9.
 - May 17, 2024 -> Day 10.
 - May 18, 2024 -> Day 11.
 - May 19, 2024 -> Day 12.
+- May 20, 2024 -> Day 13
 
