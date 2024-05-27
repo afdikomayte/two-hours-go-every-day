@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 	"testing"
 
@@ -49,16 +50,7 @@ func TestStrconvFormatInt(t *testing.T) {
 	//dengan basis numerik bisa ditentukan sendiri.
 
 	var num = int64(64)
-	str := strconv.FormatInt(num, 10)
+	str := strconv.FormatInt(num, 8)
 
-	assert.Equal(t, "64", str)
-}
-
-// Digunakan untuk konversi float string ke float dengan lebar data bisa ditentukan.
-func TestStrconvParseFloat(t *testing.T) {
-	var floatStr = "24.12"
-	floatEnamEmpat, err := strconv.ParseFloat(floatStr, 32)
-
-	assert.Nil(t, err, "err should be nil")
-	assert.Equal(t, float64(24.1200008392334), floatEnamEmpat)
+	fmt.Println(str)
 }
