@@ -82,7 +82,7 @@ func TestStrconvParseBool(t *testing.T) {
 }
 
 // konversi data menggunakan teknik casting
-func TestCastingIntToFloatAndRevers(t *testing.T) {
+func TestCastingIntToFloatAndRevers(t *tesing.T) {
 	//casting 25(int) ke tipe data float
 	var numFloat float64 = float64(24)
 
@@ -93,35 +93,4 @@ func TestCastingIntToFloatAndRevers(t *testing.T) {
 
 	assert.Equal(t, int32(24), numInt32)
 
-}
-
-// casting string ke slice byte
-func TestStringByte(t *testing.T) {
-	var text = "halo"
-	b := []byte(text)
-
-	assert.Equal(t, []byte{104, 97, 108, 111}, b)
-
-	// slice byte to string
-	var bytehelo = []byte{104, 97, 108, 111}
-	strhalo := string(bytehelo)
-
-	assert.Equal(t, "halo", strhalo)
-}
-
-// mengambil nilai dari interface kosong atau any
-func TestAserttion(t *testing.T) {
-	var data = map[string]interface{}{
-		"nama":    "afdiko",
-		"age":     29,
-		"height":  14.8,
-		"isMale":  true,
-		"hobbies": []string{"tidur", "makan"},
-	}
-
-	assert.Equal(t, "afdiko", data["nama"].(string))
-	assert.Equal(t, 29, data["age"].(int))
-	assert.Equal(t, 14.8, data["height"].(float64))
-	assert.Equal(t, bool(true), data["isMale"].(bool))
-	assert.Equal(t, []string{"tidur", "makan"}, data["hobbies"].([]string))
 }
